@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1580,6 +1580,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="5.9" y1="4.9" x2="5.9" y2="2.9" width="0.127" layer="21"/>
 <wire x1="-5.9" y1="-3.1" x2="-5.9" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="5.9" y1="-3.1" x2="5.9" y2="-5.1" width="0.127" layer="21"/>
+<text x="-3.81" y="8.89" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -1670,34 +1671,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pin name="PE3(ADC7/PTCY/T3/MOSI1)" x="43.18" y="-12.7" length="middle" rot="R180"/>
 <pin name="PE1(SCL1/T4/PTCXY)" x="43.18" y="-7.62" length="middle" rot="R180"/>
 <pin name="PE0(SDA1/ICP4/ACO/PTCXY)" x="43.18" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-<symbol name="A3L-LOC">
-<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="3.81" x2="368.3" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="368.3" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="368.3" y1="3.81" x2="368.3" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="368.3" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="368.3" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="354.965" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
-<text x="369.57" y="5.08" size="2.54" layer="94">Rev.</text>
-<text x="377.19" y="5.08" locked="yes" size="2.54" layer="94">&gt;REVISION</text>
 </symbol>
 <symbol name="TMUX1134PWR">
 <pin name="VDD" x="-15.24" y="15.24" length="middle"/>
@@ -2175,6 +2148,34 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-3.81" y="6.35" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
+<symbol name="A3L-LOC">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="368.3" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="368.3" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="368.3" y1="3.81" x2="368.3" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="368.3" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="368.3" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="354.965" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+<text x="369.57" y="5.08" size="2.54" layer="94">Rev.</text>
+<text x="377.19" y="5.08" locked="yes" size="2.54" layer="94">&gt;REVISION</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA328PB-AU" prefix="U">
@@ -2224,20 +2225,6 @@ ATmega Series 20 MHz 32 KB Flash 2 KB SRAM 8-Bit Microcontroller - TQFP-32</desc
 <attribute name="MPN" value="ATMEGA328PB-AU" constant="no"/>
 <attribute name="SUPPLIER" value="Mouser" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A3, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2871,6 +2858,20 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FRAME-A3" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2888,24 +2889,23 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <schematic_group name="DISPLAY"/>
 <schematic_group name="POWER"/>
 <schematic_group name="DIGITAL_CONTROLLERS"/>
-<schematic_group name="JACKS"/>
 <schematic_group name="INPUT"/>
+<schematic_group name="JACKS"/>
 </groups>
 <parts>
 <part name="U1" library="lib" deviceset="ATMEGA328PB-AU" device=""/>
-<part name="FRAME1" library="lib" deviceset="A3L-LOC" device=""/>
 <part name="U5" library="lib" deviceset="TMUX1134" device=""/>
 <part name="SUPPLY1" library="lib" deviceset="VDD" device=""/>
 <part name="GND2" library="lib" deviceset="GND" device=""/>
 <part name="RESET" library="lib" deviceset="BUTTON" device=""/>
 <part name="GND3" library="lib" deviceset="GND" device=""/>
-<part name="U$2" library="lib" deviceset="3X2_PINHEADER" device="3X2_PINHEADER" package3d_urn="urn:adsk.eagle:package:25351483/1"/>
+<part name="U9" library="lib" deviceset="3X2_PINHEADER" device="3X2_PINHEADER" package3d_urn="urn:adsk.eagle:package:25351483/1"/>
 <part name="GND4" library="lib" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="lib" deviceset="VDD" device=""/>
 <part name="R1" library="lib" deviceset="RESISTOR" device="1206" value="220R"/>
 <part name="SUPPLY3" library="lib" deviceset="VDD" device=""/>
 <part name="SUPPLY4" library="lib" deviceset="VDD" device=""/>
-<part name="U$3" library="lib" deviceset="CRYSTAL_LFXTAL027946BULK" device="CRYSTAL_LFXTAL027946BULK" package3d_urn="urn:adsk.eagle:package:25351556/1"/>
+<part name="U10" library="lib" deviceset="CRYSTAL_LFXTAL027946BULK" device="CRYSTAL_LFXTAL027946BULK" package3d_urn="urn:adsk.eagle:package:25351556/1"/>
 <part name="C1" library="lib" deviceset="CAPACITOR" device="1206" value="22p"/>
 <part name="C2" library="lib" deviceset="CAPACITOR" device="1206" value="22p"/>
 <part name="GND1" library="lib" deviceset="GND" device=""/>
@@ -2950,12 +2950,6 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <part name="SUPPLY20" library="lib" deviceset="VDD" device=""/>
 <part name="SUPPLY21" library="lib" deviceset="VDD" device=""/>
 <part name="U6" library="lib" deviceset="7_SEGMENT_DISPLAY" device=""/>
-<part name="POT0" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
-<part name="POT1" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
-<part name="POT2" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
-<part name="POT3" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
-<part name="POT4" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
-<part name="POT5" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
 <part name="SW0" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
 <part name="SW1" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
 <part name="SW2" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
@@ -3016,6 +3010,13 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <part name="INPUT_5" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
 <part name="GND32" library="lib" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="lib" deviceset="VDD" device=""/>
+<part name="POT5" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="POT4" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="POT3" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="POT2" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="POT1" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="POT0" library="lib" deviceset="3_PIN_CONNECTOR" device=""/>
+<part name="FRAME1" library="lib" deviceset="FRAME-A3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3025,11 +3026,6 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="U1" gate="G$1" x="84.074" y="214.376" smashed="yes" grouprefs="ATMEGA">
 <attribute name="NAME" x="63.639" y="243.7388" size="2.55326875" layer="95"/>
 <attribute name="VALUE" x="83.9412" y="243.3887" size="2.5558" layer="96"/>
-</instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="354.965" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="U5" gate="G$1" x="314.96" y="78.74" smashed="yes" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="NAME" x="309.88" y="101.6" size="1.27" layer="94"/>
@@ -3047,7 +3043,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="GND3" gate="1" x="40.894" y="158.496" smashed="yes" rot="R270" grouprefs="ATMEGA">
 <attribute name="VALUE" x="38.354" y="161.036" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$2" gate="G$1" x="114.554" y="158.496" smashed="yes" grouprefs="ATMEGA"/>
+<instance part="U9" gate="G$1" x="114.554" y="158.496" smashed="yes" grouprefs="ATMEGA"/>
 <instance part="GND4" gate="1" x="134.874" y="153.416" smashed="yes" rot="R90" grouprefs="ATMEGA">
 <attribute name="VALUE" x="137.414" y="150.876" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -3064,7 +3060,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="SUPPLY4" gate="G$1" x="38.354" y="237.236" smashed="yes" rot="R90" grouprefs="ATMEGA">
 <attribute name="VALUE" x="35.179" y="235.331" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="63.754" y="124.206" smashed="yes" rot="R90" grouprefs="ATMEGA"/>
+<instance part="U10" gate="G$1" x="63.754" y="124.206" smashed="yes" rot="R90" grouprefs="ATMEGA"/>
 <instance part="C1" gate="G$1" x="53.594" y="133.096" smashed="yes" rot="R90" grouprefs="ATMEGA">
 <attribute name="NAME" x="53.213" y="134.62" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="58.293" y="134.62" size="1.778" layer="96" rot="R90"/>
@@ -3096,11 +3092,11 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="U4" gate="G$1" x="58.42" y="73.66" smashed="yes" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="NAME" x="55.88" y="93.98" size="1.778" layer="94"/>
 </instance>
-<instance part="U4" gate="G$2" x="27.94" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="24.384" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U4" gate="G$2" x="116.84" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="113.284" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
-<instance part="U4" gate="G$3" x="45.72" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="42.164" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U4" gate="G$3" x="99.06" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="95.504" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="25.4" y="88.9" smashed="yes" rot="R90" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="VALUE" x="22.225" y="86.995" size="1.778" layer="96" rot="R90"/>
@@ -3169,11 +3165,11 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="U2" gate="G$1" x="142.24" y="73.66" smashed="yes" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="NAME" x="139.7" y="93.98" size="1.778" layer="94"/>
 </instance>
-<instance part="U2" gate="G$2" x="63.5" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="59.944" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U2" gate="G$2" x="45.72" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="42.164" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
-<instance part="U2" gate="G$3" x="81.28" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="77.724" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U2" gate="G$3" x="27.94" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="24.384" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
 <instance part="GND9" gate="1" x="205.74" y="78.74" smashed="yes" rot="R270" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="VALUE" x="203.2" y="81.28" size="1.778" layer="96" rot="R270"/>
@@ -3203,11 +3199,11 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="U3" gate="G$1" x="226.06" y="71.12" smashed="yes" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="NAME" x="223.52" y="91.44" size="1.778" layer="94"/>
 </instance>
-<instance part="U3" gate="G$2" x="99.06" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="95.504" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U3" gate="G$2" x="81.28" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="77.724" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
-<instance part="U3" gate="G$3" x="116.84" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
-<attribute name="NAME" x="113.284" y="34.163" size="1.524" layer="95" ratio="10"/>
+<instance part="U3" gate="G$3" x="63.5" y="30.48" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="59.944" y="34.163" size="1.524" layer="95" ratio="10"/>
 </instance>
 <instance part="GND13" gate="1" x="93.98" y="78.74" smashed="yes" rot="R90" grouprefs="DIGITAL_CONTROLLERS">
 <attribute name="VALUE" x="95.504" y="77.978" size="1.778" layer="96"/>
@@ -3230,35 +3226,17 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="U6" gate="G$1" x="215.9" y="142.24" smashed="yes" grouprefs="DISPLAY">
 <attribute name="NAME" x="213.36" y="167.64" size="1.27" layer="94"/>
 </instance>
-<instance part="POT0" gate="G$1" x="27.94" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="25.4" y="9.144" size="1.27" layer="94" rot="MR180"/>
+<instance part="SW0" gate="G$1" x="142.24" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="140.208" y="9.144" size="1.27" layer="94" rot="MR180"/>
 </instance>
-<instance part="POT1" gate="G$1" x="45.72" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="43.18" y="9.144" size="1.27" layer="94" rot="MR180"/>
+<instance part="SW1" gate="G$1" x="160.02" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="157.988" y="9.144" size="1.27" layer="94" rot="MR180"/>
 </instance>
-<instance part="POT2" gate="G$1" x="63.5" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="60.96" y="9.144" size="1.27" layer="94" rot="MR180"/>
+<instance part="SW2" gate="G$1" x="177.8" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="175.768" y="9.144" size="1.27" layer="94" rot="MR180"/>
 </instance>
-<instance part="POT3" gate="G$1" x="81.28" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="78.74" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="POT4" gate="G$1" x="99.06" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="96.52" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="POT5" gate="G$1" x="116.84" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="114.3" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="SW0" gate="G$1" x="144.78" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="142.748" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="SW1" gate="G$1" x="162.56" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="160.528" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="SW2" gate="G$1" x="180.34" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="178.308" y="9.144" size="1.27" layer="94" rot="MR180"/>
-</instance>
-<instance part="SW3" gate="G$1" x="198.12" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
-<attribute name="NAME" x="196.088" y="9.144" size="1.27" layer="94" rot="MR180"/>
+<instance part="SW3" gate="G$1" x="195.58" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="193.548" y="9.144" size="1.27" layer="94" rot="MR180"/>
 </instance>
 <instance part="PWR" gate="G$1" x="274.32" y="228.6" smashed="yes" rot="R180" grouprefs="POWER">
 <attribute name="NAME" x="272.796" y="222.25" size="1.27" layer="94" rot="R180"/>
@@ -3443,6 +3421,29 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <instance part="SUPPLY28" gate="G$1" x="332.74" y="139.7" smashed="yes" rot="MR270" grouprefs="INPUT">
 <attribute name="VALUE" x="323.977" y="140.843" size="1.778" layer="96" rot="MR180"/>
 </instance>
+<instance part="POT5" gate="G$1" x="116.84" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="114.3" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="POT4" gate="G$1" x="99.06" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="96.52" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="POT3" gate="G$1" x="81.28" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="78.74" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="POT2" gate="G$1" x="63.5" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="60.96" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="POT1" gate="G$1" x="45.72" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="43.18" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="POT0" gate="G$1" x="27.94" y="15.24" smashed="yes" rot="MR270" grouprefs="JACKS">
+<attribute name="NAME" x="25.4" y="9.144" size="1.27" layer="94" rot="MR180"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="354.965" y="5.08" size="2.54" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3461,7 +3462,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <junction x="147.574" y="239.776" grouprefs="ATMEGA"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="6"/>
+<pinref part="U9" gate="G$1" pin="6"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VDD"/>
 <wire x1="127.254" y1="163.576" x2="132.334" y2="163.576" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 </segment>
@@ -3612,7 +3613,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <wire x1="132.334" y1="153.416" x2="127.254" y2="153.416" width="0.1524" layer="91" grouprefs="ATMEGA"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
+<pinref part="U9" gate="G$1" pin="4"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -3776,7 +3777,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <junction x="33.274" y="194.056" grouprefs="ATMEGA"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="3"/>
+<pinref part="U9" gate="G$1" pin="3"/>
 <wire x1="104.394" y1="153.416" x2="96.774" y2="153.416" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 <label x="96.774" y="153.416" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
@@ -3790,7 +3791,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="58.674" y1="133.096" x2="63.754" y2="133.096" width="0.1524" layer="91" grouprefs="ATMEGA"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="U10" gate="G$1" pin="P$2"/>
 <wire x1="63.754" y1="133.096" x2="63.754" y2="131.826" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 <junction x="63.754" y="133.096" grouprefs="ATMEGA"/>
 <wire x1="63.754" y1="133.096" x2="73.914" y2="133.096" width="0.1524" layer="91" grouprefs="ATMEGA"/>
@@ -3805,7 +3806,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="U10" gate="G$1" pin="P$1"/>
 <wire x1="63.754" y1="115.316" x2="58.674" y2="115.316" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 <wire x1="63.754" y1="116.586" x2="63.754" y2="115.316" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 <junction x="63.754" y="115.316" grouprefs="ATMEGA"/>
@@ -3826,9 +3827,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="292.1" y="76.2" size="1.778" layer="95" grouprefs="DIGITAL_CONTROLLERS"/>
 </segment>
 <segment>
-<pinref part="SW0" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="25.4" x2="139.7" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="139.7" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="154.94" y1="25.4" x2="154.94" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="154.94" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="S1B" class="0">
@@ -3838,9 +3839,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U5" gate="G$1" pin="S1B"/>
 </segment>
 <segment>
-<pinref part="SW0" gate="G$1" pin="3"/>
-<wire x1="149.86" y1="25.4" x2="149.86" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="149.86" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="165.1" y1="25.4" x2="165.1" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="165.1" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="S2A" class="0">
@@ -3850,9 +3851,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U5" gate="G$1" pin="S2A"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="25.4" x2="157.48" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="157.48" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="137.16" y1="25.4" x2="137.16" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="137.16" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW0" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="S2B" class="0">
@@ -3862,9 +3863,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U5" gate="G$1" pin="S2B"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="25.4" x2="167.64" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="167.64" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="147.32" y1="25.4" x2="147.32" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="147.32" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW0" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="S3A" class="0">
@@ -3875,8 +3876,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="25.4" x2="175.26" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="175.26" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="172.72" y1="25.4" x2="172.72" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="172.72" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="S3B" class="0">
@@ -3887,8 +3888,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="3"/>
-<wire x1="185.42" y1="25.4" x2="185.42" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="185.42" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="182.88" y1="25.4" x2="182.88" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="182.88" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="S4A" class="0">
@@ -3899,8 +3900,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW3" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="25.4" x2="193.04" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="193.04" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="190.5" y1="25.4" x2="190.5" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="190.5" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="S4B" class="0">
@@ -3911,8 +3912,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW3" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="25.4" x2="203.2" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="203.2" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="200.66" y1="25.4" x2="200.66" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="200.66" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="S1" class="0">
@@ -3922,9 +3923,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="330.2" y="66.04" size="1.778" layer="95" grouprefs="DIGITAL_CONTROLLERS"/>
 </segment>
 <segment>
-<pinref part="SW0" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="25.4" x2="144.78" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="144.78" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="160.02" y1="25.4" x2="160.02" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="160.02" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="S2" class="0">
@@ -3934,9 +3935,9 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U5" gate="G$1" pin="S2"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="25.4" x2="162.56" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="162.56" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="142.24" y1="25.4" x2="142.24" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="142.24" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<pinref part="SW0" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="S3" class="0">
@@ -3947,8 +3948,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="25.4" x2="180.34" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="180.34" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="177.8" y1="25.4" x2="177.8" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="177.8" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="S4" class="0">
@@ -3959,8 +3960,8 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <pinref part="SW3" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="25.4" x2="198.12" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
-<label x="198.12" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
+<wire x1="195.58" y1="25.4" x2="195.58" y2="30.48" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="195.58" y="30.48" size="1.778" layer="95" rot="MR270" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -4041,13 +4042,6 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <wire x1="193.04" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91" grouprefs="DIGITAL_CONTROLLERS"/>
 <label x="193.04" y="66.04" size="1.778" layer="95" grouprefs="DIGITAL_CONTROLLERS"/>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-</segment>
-</net>
-<net name="LED" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="109.474" y1="122.936" x2="96.774" y2="122.936" width="0.1524" layer="91" grouprefs="ATMEGA"/>
-<label x="96.774" y="122.936" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4247,14 +4241,14 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U1" gate="G$1" pin="PD2(PTCXY/INT0/OC3B/OC4B)"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91" grouprefs="DISPLAY"/>
-<label x="182.88" y="142.24" size="1.778" layer="95" grouprefs="DISPLAY"/>
-<pinref part="U6" gate="G$1" pin="C1"/>
+<wire x1="248.92" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91" grouprefs="DISPLAY"/>
+<label x="248.92" y="132.08" size="1.778" layer="95" rot="MR0" grouprefs="DISPLAY"/>
+<pinref part="U6" gate="G$1" pin="E2"/>
 </segment>
 <segment>
-<wire x1="248.92" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91" grouprefs="DISPLAY"/>
-<label x="248.92" y="142.24" size="1.778" layer="95" rot="MR0" grouprefs="DISPLAY"/>
-<pinref part="U6" gate="G$1" pin="C2"/>
+<wire x1="182.88" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
+<label x="182.88" y="132.08" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="E1"/>
 </segment>
 </net>
 <net name="DISP_3" class="0">
@@ -4264,14 +4258,14 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U1" gate="G$1" pin="PD3(OC2B/INT1/PTCXY)"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91" grouprefs="DISPLAY"/>
-<label x="182.88" y="137.16" size="1.778" layer="95" grouprefs="DISPLAY"/>
-<pinref part="U6" gate="G$1" pin="D1"/>
-</segment>
-<segment>
 <wire x1="248.92" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91" grouprefs="DISPLAY"/>
 <label x="248.92" y="137.16" size="1.778" layer="95" rot="MR0" grouprefs="DISPLAY"/>
 <pinref part="U6" gate="G$1" pin="D2"/>
+</segment>
+<segment>
+<wire x1="182.88" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="182.88" y="137.16" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="D1"/>
 </segment>
 </net>
 <net name="DISP_4" class="0">
@@ -4281,14 +4275,14 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U1" gate="G$1" pin="PD4(XCK0/T0/PTCXY)"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91" grouprefs="DISPLAY"/>
-<label x="182.88" y="132.08" size="1.778" layer="95" grouprefs="DISPLAY"/>
-<pinref part="U6" gate="G$1" pin="E1"/>
+<wire x1="248.92" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="248.92" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U6" gate="G$1" pin="C2"/>
 </segment>
 <segment>
-<wire x1="248.92" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91" grouprefs="DISPLAY"/>
-<label x="248.92" y="132.08" size="1.778" layer="95" rot="MR0" grouprefs="DISPLAY"/>
-<pinref part="U6" gate="G$1" pin="E2"/>
+<wire x1="182.88" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
+<label x="182.88" y="142.24" size="1.778" layer="95"/>
+<pinref part="U6" gate="G$1" pin="C1"/>
 </segment>
 </net>
 <net name="DISP_5" class="0">
@@ -4367,7 +4361,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="175.26" y="215.9" size="1.778" layer="95" grouprefs="ENCODER"/>
 </segment>
 </net>
-<net name="MOSI0" class="0">
+<net name="MOSI0/LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3(MOSI0/TXD1/OC2A/PTCXY)"/>
 <wire x1="40.894" y1="224.536" x2="20.574" y2="224.536" width="0.1524" layer="91" grouprefs="ATMEGA"/>
@@ -4375,8 +4369,13 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 </segment>
 <segment>
 <wire x1="134.874" y1="158.496" x2="127.254" y2="158.496" width="0.1524" layer="91" grouprefs="ATMEGA"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
+<pinref part="U9" gate="G$1" pin="5"/>
 <label x="127.254" y="158.496" size="1.778" layer="95" grouprefs="ATMEGA"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="109.474" y1="122.936" x2="96.774" y2="122.936" width="0.1524" layer="91" grouprefs="ATMEGA"/>
+<label x="96.774" y="122.936" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
 </net>
 <net name="MISO0" class="0">
@@ -4386,7 +4385,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="20.574" y="221.996" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="U9" gate="G$1" pin="1"/>
 <label x="96.774" y="163.576" size="1.778" layer="95" grouprefs="ATMEGA"/>
 <wire x1="104.394" y1="163.576" x2="96.774" y2="163.576" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 </segment>
@@ -4398,7 +4397,7 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="20.574" y="219.456" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="U9" gate="G$1" pin="2"/>
 <wire x1="104.394" y1="158.496" x2="96.774" y2="158.496" width="0.1524" layer="91" grouprefs="ATMEGA"/>
 <label x="96.774" y="158.496" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
@@ -4426,9 +4425,13 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <label x="129.794" y="201.676" size="1.778" layer="95" grouprefs="ATMEGA"/>
 </segment>
 <segment>
-<wire x1="256.54" y1="162.56" x2="236.22" y2="162.56" width="0.1524" layer="91" grouprefs="DISPLAY"/>
+<wire x1="256.54" y1="162.56" x2="241.3" y2="162.56" width="0.1524" layer="91" grouprefs="DISPLAY"/>
 <label x="256.54" y="162.56" size="1.778" layer="95" rot="MR0" grouprefs="DISPLAY"/>
 <pinref part="U6" gate="G$1" pin="GND2"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="162.56" x2="236.22" y2="162.56" width="0.1524" layer="91" grouprefs="DISPLAY"/>
+<wire x1="241.3" y1="165.1" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
+<junction x="241.3" y="162.56"/>
 </segment>
 </net>
 <net name="DISP_7" class="0">
@@ -4448,126 +4451,6 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="U6" gate="G$1" pin="DOT2"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U4" gate="G$2" pin="W"/>
-<pinref part="POT0" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U4" gate="G$2" pin="B"/>
-<pinref part="POT0" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="30.48" x2="22.86" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U4" gate="G$2" pin="A"/>
-<pinref part="POT0" gate="G$1" pin="3"/>
-<wire x1="33.02" y1="30.48" x2="33.02" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="40.64" y1="30.48" x2="40.64" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U4" gate="G$3" pin="B"/>
-<pinref part="POT1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U4" gate="G$3" pin="A"/>
-<pinref part="POT1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="58.42" y1="30.48" x2="58.42" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U2" gate="G$2" pin="B"/>
-<pinref part="POT2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<wire x1="68.58" y1="30.48" x2="68.58" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U2" gate="G$2" pin="A"/>
-<pinref part="POT2" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="76.2" y1="30.48" x2="76.2" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U2" gate="G$3" pin="B"/>
-<pinref part="POT3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<wire x1="86.36" y1="30.48" x2="86.36" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U2" gate="G$3" pin="A"/>
-<pinref part="POT3" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<wire x1="93.98" y1="30.48" x2="93.98" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U3" gate="G$2" pin="B"/>
-<pinref part="POT4" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="104.14" y1="30.48" x2="104.14" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U3" gate="G$2" pin="A"/>
-<pinref part="POT4" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="111.76" y1="30.48" x2="111.76" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U3" gate="G$3" pin="B"/>
-<pinref part="POT5" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="121.92" y1="30.48" x2="121.92" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
-<pinref part="U3" gate="G$3" pin="A"/>
-<pinref part="POT5" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="POT1" gate="G$1" pin="2"/>
-<pinref part="U4" gate="G$3" pin="W"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="POT2" gate="G$1" pin="2"/>
-<pinref part="U2" gate="G$2" pin="W"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="POT3" gate="G$1" pin="2"/>
-<pinref part="U2" gate="G$3" pin="W"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="POT4" gate="G$1" pin="2"/>
-<pinref part="U3" gate="G$2" pin="W"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="POT5" gate="G$1" pin="2"/>
-<pinref part="U3" gate="G$3" pin="W"/>
-</segment>
-</net>
 <net name="N$42" class="0">
 <segment>
 <wire x1="297.18" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91" grouprefs="POWER"/>
@@ -4577,12 +4460,6 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <pinref part="PWR" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <pinref part="U7" gate="G$1" pin="VIN"/>
-</segment>
-</net>
-<net name="DISP_SEL2" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="165.1" x2="241.3" y2="162.56" width="0.1524" layer="91" grouprefs="DISPLAY"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -4605,6 +4482,126 @@ Digital Potentiometer ICs Dual 8-Bit I2C Dig POT</description>
 <wire x1="203.2" y1="228.6" x2="203.2" y2="226.06" width="0.1524" layer="91" grouprefs="ENCODER"/>
 <junction x="203.2" y="226.06" grouprefs="ENCODER"/>
 <pinref part="U8" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U4" gate="G$3" pin="W"/>
+<pinref part="POT4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U4" gate="G$2" pin="W"/>
+<pinref part="POT5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U2" gate="G$2" pin="W"/>
+<pinref part="POT1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U3" gate="G$2" pin="W"/>
+<pinref part="POT3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U3" gate="G$3" pin="W"/>
+<pinref part="POT2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U2" gate="G$3" pin="W"/>
+<pinref part="POT0" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U2" gate="G$3" pin="A"/>
+<pinref part="POT0" gate="G$1" pin="3"/>
+<wire x1="33.02" y1="30.48" x2="33.02" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U2" gate="G$3" pin="B"/>
+<pinref part="POT0" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U3" gate="G$2" pin="B"/>
+<pinref part="POT3" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="30.48" x2="76.2" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U3" gate="G$2" pin="A"/>
+<pinref part="POT3" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="30.48" x2="86.36" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U3" gate="G$3" pin="B"/>
+<pinref part="POT2" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="30.48" x2="58.42" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U3" gate="G$3" pin="A"/>
+<pinref part="POT2" gate="G$1" pin="3"/>
+<wire x1="68.58" y1="30.48" x2="68.58" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U2" gate="G$2" pin="B"/>
+<pinref part="POT1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="30.48" x2="40.64" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="U2" gate="G$2" pin="A"/>
+<pinref part="POT1" gate="G$1" pin="3"/>
+<wire x1="50.8" y1="30.48" x2="50.8" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="U4" gate="G$3" pin="A"/>
+<pinref part="POT4" gate="G$1" pin="3"/>
+<wire x1="104.14" y1="30.48" x2="104.14" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U4" gate="G$2" pin="A"/>
+<pinref part="POT5" gate="G$1" pin="3"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U4" gate="G$3" pin="B"/>
+<pinref part="POT4" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="30.48" x2="93.98" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U4" gate="G$2" pin="B"/>
+<pinref part="POT5" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="30.48" x2="111.76" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
 </segment>
 </net>
 </nets>
