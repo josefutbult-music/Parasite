@@ -178,6 +178,9 @@
     <Compile Include="Controller\Controller_Map.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Controller\Controller_Variables.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Display\Display.cpp">
       <SubType>compile</SubType>
     </Compile>
@@ -193,11 +196,18 @@
     <Compile Include="main.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Output\Output_Handler.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Output\Output_Handler.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controller" />
     <Folder Include="Display" />
     <Folder Include="Encoder" />
+    <Folder Include="Output" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
