@@ -1,10 +1,29 @@
-#ifndef ENCODER_H
-#define ENCODER_H
+/* 
+* Encoder.h
+*
+* Created: 2021-04-22 14:52:13
+* Author: josef
+*/
 
-namespace Encoder
+
+#ifndef __ENCODER_H__
+#define __ENCODER_H__
+
+#include <stdint.h>
+
+class Encoder
 {
-	void init();
-	int get_increment_val();
-}
+public:
+	static void init();
+	static int get_increment_val();
+	static int get_buttonpress();
+	static void on_interrupt();
+protected:
+private:
+	static uint8_t input_state;
+	static int increment_val;
+	static int buttonpress;
 
-#endif
+};
+
+#endif //__ENCODER_H__

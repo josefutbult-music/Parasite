@@ -59,13 +59,12 @@ void Controller::init_digital(uint8_t digital_controller_map)
 	
 	cli();
 	// Set interrupt to trigger after READ_RATE cycles
-	TCNT2 = READ_RATE;
+	// TCNT2 = READ_RATE;
 	TCCR2A = 0x00;
 	// Enable timer mode with 256 prescaler
 	TCCR2B = (1 << CS22) | (1 << CS21);
 	// Disable timer2 overflow interrupt(TOIE2)
 	TIMSK2 = (1 << TOIE2);
-	// TIMSK2 &= ~(1 << TOIE2);
 	sei();
 }
 
@@ -94,7 +93,7 @@ uint8_t Controller::get_controller_vals_changed()
 void Controller::read()
 {
 	if(controller_map[Controller::current_controller].type == ANALOG_CONTROLLER){
-		// Store values in ADC register (MAke sure to read ADCL first, to enable change in ADCH. See page 219 in datasheet)
+		// Store values in ADC register (Make sure to read ADCL first, to enable change in ADCH. See page 219 in datasheet)
 		Controller::update_controller_val(ADCL | (ADCH << 8));
 	}
 	else if(controller_map[Controller::current_controller].type == DIGITAL_CONTROLLER){

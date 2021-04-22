@@ -3021,6 +3021,12 @@ DIN A3, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
+<text x="340.36" y="81.28" size="1.778" layer="91">TODO: Connect these...
+
+The connections are wrong. 
+S1- 4 should be select 1 - 4,
+and d1 - 4 are outputs</text>
+<text x="276.86" y="119.38" size="1.778" layer="91">TODO: Add resistors to every input</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="84.074" y="214.376" smashed="yes" grouprefs="ATMEGA">
@@ -4610,6 +4616,10 @@ DIN A3, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets

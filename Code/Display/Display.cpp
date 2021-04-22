@@ -11,14 +11,11 @@
 #define DISP_SEL_0 2
 #define DISP_SEL_1 3
 
-#define FRAMERATE 256
-
 uint16_t Display::out_value = 0;
 
 ISR(TIMER1_OVF_vect)
 {
-	PORTE ^= (1 << DISP_SEL_0) | (1 << DISP_SEL_1);
-	PORTD = (PORTE & (1 << DISP_SEL_0) ? (Display::out_value >> 8): Display::out_value) & 0xff;
+	Display::on_interrupt();
 }
 
 void Display::init()
@@ -28,10 +25,6 @@ void Display::init()
 	DDRE |= (1 << DISP_SEL_0) | (1 << DISP_SEL_1);
 	PORTE |= (1 << DISP_SEL_1);
 	
-	// Set all display characters to 0
-	DDRD = 0xff;
-	PORTD = 0xff;
-	
 	cli();
 	TCCR1A = 0x00;
 	// Timer mode with no prescaler
@@ -39,6 +32,10 @@ void Display::init()
 	// Enable timer1 overflow interrupt(TOIE1)
 	TIMSK1 = (1 << TOIE1);
 	sei();
+	
+	// Set all display characters to 0
+	DDRD = 0xff;
+	PORTD = 0xff;
 }
 
 uint8_t Display::generate_digit(uint8_t value)
@@ -85,4 +82,22 @@ void Display::set_disp_val(uint8_t value)
 	cli();
 	Display::out_value = tmp;
 	sei();
+}
+
+void Display::on_interrupt()
+{
+	if (PORTE & (1 << DISP_SEL_0))
+	{
+		PORTE &= ~(1 << DISP_SEL_0);
+		PORTE |= (1 << DISP_SEL_1);
+		
+		PORTD = Display::out_value & 0xff;
+	}
+	else
+	{
+		PORTE &= ~(1 << DISP_SEL_1);
+		PORTE |= (1 << DISP_SEL_0);
+		
+		PORTD = Display::out_value >> 8;
+	}
 }
